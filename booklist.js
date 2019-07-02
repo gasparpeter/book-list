@@ -60,6 +60,8 @@ class UI {
         const container = document.querySelector('.container');
         const form = document.querySelector('#book-form');
         container.insertBefore(div, form);
+
+        setTimeout(() => document.querySelector('.alert').remove(), 3000);
     }
 
 
